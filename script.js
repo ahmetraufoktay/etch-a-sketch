@@ -29,7 +29,7 @@ function input() {
 
 button.addEventListener('click', () => {
     let numberOfSqrPerSide = input();
-    if (numberOfSqrPerSide !== null && numberOfSqrPerSide != '') {
+    if (numberOfSqrPerSide !== null && numberOfSqrPerSide == '') {
         while (grid.firstChild) {
             grid.removeChild(grid.lastChild);
         }
