@@ -16,11 +16,17 @@ body {
     align-items:center;
     justify-content: center;
     
-    width: 10%;
+    width: 20%;
     gap: 20px;
 }
 button {
     display: flex;
+    align-items: center;
+    width: 70%;
+    height: 15%;
+    border: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #grid {
