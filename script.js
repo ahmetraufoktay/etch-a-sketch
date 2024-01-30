@@ -63,6 +63,7 @@ rainbowButton.addEventListener('click',()=> {
 
 blackButton.addEventListener('click',()=> {
     rainbowState = false;
+    darkeningState = false;
     colorState = 'black';
 });
 effectButton.addEventListener('click',()=>{
